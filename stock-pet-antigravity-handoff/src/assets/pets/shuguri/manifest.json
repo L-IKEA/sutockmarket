@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "petId": "shuguri",
+  "displayName": "슈구리",
+  "canvas": {
+    "width": 512,
+    "height": 512
+  },
+  "defaultAnimation": "idle",
+  "animations": {
+    "idle": {
+      "frames": [
+        "idle/0_idle_1.png",
+        "idle/0_idle_2.png",
+        "idle/0_idle_3.png",
+        "idle/0_idle_4.png"
+      ],
+      "fps": 3,
+      "loop": true
+    },
+    "happy": {
+      "frames": [
+        "happy/1_happy_1.png",
+        "happy/1_happy_2.png",
+        "happy/1_happy_3.png",
+        "happy/1_happy_4.png"
+      ],
+      "fps": 6,
+      "loop": true
+    },
+    "veryHappy": {
+      "frames": [
+        "veryHappy/3_veryhappy_1.png",
+        "veryHappy/3_veryhappy_2.png",
+        "veryHappy/3_veryhappy_3.png",
+        "veryHappy/3_veryhappy_4.png",
+        "veryHappy/3_veryhappy_5.png",
+        "veryHappy/3_veryhappy_6.png",
+        "veryHappy/3_veryhappy_7.png",
+        "veryHappy/3_veryhappy_8.png"
+      ],
+      "fps": 10,
+      "loop": true
+    },
+    "sad": {
+      "frames": [
+        "sad/2_sad_1.png",
+        "sad/2_sad_2.png",
+        "sad/2_sad_3.png",
+        "sad/2_sad_4.png"
+      ],
+      "fps": 4,
+      "loop": true
+    },
+    "shock": {
+      "frames": [
+        "shock/4_shock_1.png",
+        "shock/4_shock_2.png",
+        "shock/4_shock_3.png",
+        "shock/4_shock_4.png",
+        "shock/4_shock_5.png",
+        "shock/4_shock_6.png",
+        "shock/4_shock_7.png",
+        "shock/4_shock_8.png"
+      ],
+      "fps": 8,
+      "loop": true
+    },
+    "sleep": {
+      "frames": [
+        "sleep/5_sleep_1.png"
+      ],
+      "fps": 3,
+      "loop": true
+    },
+    "error": {
+      "frames": [
+        "error/6_error_1.png"
+      ],
+      "fps": 3,
+      "loop": true
+    }
+  }
+}

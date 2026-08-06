@@ -1,0 +1,29 @@
+# Node / Vite
+node_modules/
+dist/
+.vite/
+
+# Tauri / Rust
+src-tauri/target/
+target/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets/
+credentials/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local Antigravity files that should not be shared
+.antigravity/local/
